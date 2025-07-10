@@ -1,6 +1,7 @@
 import numpy as np
 import pickle
 import streamlit as st
+import os
 
 # Load the saved model
 model_path = os.path.join('models', 'heart_disease_model.sav')
