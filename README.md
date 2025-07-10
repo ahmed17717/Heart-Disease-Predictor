@@ -44,6 +44,6 @@ A machine learning-powered Streamlit web app that predicts the risk of heart dis
 
 ## 🙋‍♂️ Author
 
-Ahmed Ragab
-🌐 [LinkedIn]((https://www.linkedin.com/in/ahmed-ragab-29a547218/))  
-💻 Final Year CS Student | AI & Machine Learning Enthusiast
+**Ahmed Ragab**  
+🎓 Final Year CS Student | AI & Machine Learning Enthusiast  
+🔗 [LinkedIn](https://www.linkedin.com/in/ahmed-ragab-29a547218/)
