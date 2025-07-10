@@ -6,7 +6,7 @@ A machine learning-powered Streamlit web app that predicts the risk of heart dis
 
 ## 🚀 Demo
 
-🌐 [Live App on Streamlit]([https://your-streamlit-link.streamlit.app](https://heart-disease-predictor-mztjfapajp2juywgsdathz.streamlit.app/))  
+🌐 [Live App on Streamlit]([https://heart-disease-predictor-yourusername.streamlit.app](https://heart-disease-predictor-mztjfapajp2juywgsdathz.streamlit.app/)) 
 
 ---
 
