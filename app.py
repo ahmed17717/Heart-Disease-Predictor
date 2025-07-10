@@ -3,7 +3,8 @@ import pickle
 import streamlit as st
 
 # Load the saved model
-model = pickle.load(open('D:/Projects/Heart_Disease_Predictor/models/heart_disease_model.sav', 'rb'))
+model_path = os.path.join('models', 'heart_disease_model.sav')
+model = pickle.load(open(model_path, 'rb'))
 
 # Prediction function
 def heart_disease_prediction(input_data):
