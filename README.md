@@ -42,3 +42,13 @@ The project uses Logistic Regression and provides an interactive interface built
    ```bash
    git clone https://github.com/ahmed17717/Heart-Disease-Predictor.git
    cd Heart-Disease-Predictor
+   
+2. Install dependencies:
+
+   ```bash
+   pip install -r requirements.txt
+
+3. Run the application:
+
+   ```bash
+   streamlit run app.py
