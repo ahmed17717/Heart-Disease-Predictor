@@ -1,44 +1,44 @@
-# 🫀 Heart Disease Risk Predictor
+# Heart Disease Predictor
 
-A machine learning-powered Streamlit web app that predicts the risk of heart disease based on clinical features. This project demonstrates the application of classification algorithms, model deployment, and interactive UI development for real-world healthcare insights.
+A simple machine learning project that predicts the presence of heart disease based on patient medical attributes.
 
----
+The project uses Logistic Regression and provides an interactive interface built with Streamlit.
 
-## 🚀 Demo
+## Live Demo
 
-🌐 [Live App on Streamlit](https://heart-disease-predictor-mztjfapajp2juywgsdathz.streamlit.app/)  
+[Try the application](https://heart-disease-predictor-mztjfapajp2juywgsdathz.streamlit.app/)
 
----
+## Features
 
-## 📌 Features
+- Predicts heart disease presence using patient health information.
+- Uses a Logistic Regression classification model.
+- Interactive interface built with Streamlit.
+- Model trained using the UCI Heart Disease dataset.
 
-- Predicts likelihood of heart disease from user input
-- Uses a trained **Logistic Regression Classifier**
-- Built with **Streamlit** for a responsive and interactive UI
-- Lightweight and easy to deploy
+## Tech Stack
 
----
+- Python
+- Pandas & NumPy
+- Scikit-learn
+- Streamlit
+- Pickle
 
-## 🧠 ML Model Details
+## Project Structure
 
-- **Model**: Logistic Regression Classifier
-- **Dataset**: UCI Heart Disease Dataset  
-- **Features Used**:
-  - Age, Sex, Chest Pain Type
-  - Resting Blood Pressure, Serum Cholesterol
-  - Fasting Blood Sugar, ECG, Max Heart Rate
-  - Exercise-induced Angina, ST Depression
-  - Slope, Number of vessels, Thalassemia
+    Heart-Disease-Predictor/
+    ├── app.py
+    ├── data/
+    │   └── heart_disease.csv
+    ├── models/
+    │   └── heart_disease_model.sav
+    ├── notebooks/
+    │   └── Heart_Disease_Model_Training.ipynb
+    └── requirements.txt
 
----
+## Run Locally
 
-## 🛠 Tech Stack
+1. Clone the repository:
 
-- **Frontend**: Streamlit
-- **Backend**: Python, Scikit-learn
-- **Data Handling**: Pandas, NumPy
-- **Model Serialization**: Pickle
-- **Deployment**: Streamlit Cloud
-
----
-
+   ```bash
+   git clone https://github.com/ahmed17717/Heart-Disease-Predictor.git
+   cd Heart-Disease-Predictor
